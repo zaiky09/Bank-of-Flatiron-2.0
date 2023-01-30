@@ -65,9 +65,9 @@ As a user, I should be able to:
 
                  json-server --watch db.json
 
-      - Test your server by visiting this route in the browser:
+      - Test your server by visiting this route in the browser: (npoint was used to create a json bin)
 
-                  http://localhost:3000/transactions
+                 (https://api.npoint.io/996222c44ba840af45ae)
                   
       - Run npm start in the terminal
       
