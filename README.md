@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Bank-of-flatiron
+Code challenge Phase 2 week 1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This is the Phase 2 Code-challenge 1;
 
-## Available Scripts
+      - The web application is intended to allow you to view a list of recent bank transactions, in addition to adding a transaction on the app
+      
+      - The app uses Semantic UI for styling. If you see any unfamiliar classNames on some components, don't sweat! That's coming from Semantic UI and you shouldn't need to touch it.
 
-In the project directory, you can run:
+## Getting started
+To use the content on this repository, ensure you have the following:
 
-### `npm start`
+      - A computer that runs on either of the following; (Windows 7+, Linux, Mac OS)
+      - nodejs 9.0+
+      
+## Installation
+To use this repository on your machine requires some simple steps
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Option One
+      - Open a terminal / command line interface on your computer
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+      -Navigate to a folder you would like to clone the repository
 
-### `npm test`
+            using cd "folder name"
+            
+      - Clone the repository by using the following:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+            git clone git@github.com:zaiky09/Bank-of-Flatiron-2.0.git
 
-### `npm run build`
+      - Be patient as it creates a copy on your local machine for you.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+      - Change directory to the repo folder:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+            cd code-challenge-3
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+      - Open it in Visual Studio Code
 
-### `npm run eject`
+            code .
+### Option Two
+      - On the top right corner of this page there is a button labelled Fork.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+      - Click on that button to fork the repository to your own account.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+      - Take on the process in Option One above.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+      - Remember to replace your username when cloning.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+            git clone https://github.com/your-username-here/Bank-of-Flatiron-2.0
+      
+      - Install required dependencies from npm
 
-## Learn More
+            npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Core Deliverables
+As a user, I should be able to:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+      1. See a table of the transactions.
+      2. Fill out and submit the form to add a new transaction. This should add the new transaction to the table as well as post the new transaction to the backend API for persistence.
+      3. Filter transactions by typing into the search bar. Only transactions with a description matching the search term should be shown in the transactions table.
+## Running the App
+      - To run the application, you can use the following steps
 
-### Code Splitting
+      - Run this command to get the backend started:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+                 json-server --watch db.json
 
-### Analyzing the Bundle Size
+      - Test your server by visiting this route in the browser:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+                  http://localhost:3000/transactions
+                  
+      - Run npm start in the terminal
+      
+### AUTHOR
+Zamil Mozamil Sheikh
