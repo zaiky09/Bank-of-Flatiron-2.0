@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  height: 85px;
+  color:rgb(12, 12, 12);
+  background-color: goldenrod  ;
+}
+
+.tb{
+  background-color: goldenrod;
+  border-radius: 10px;
+  color: black;
+}
+
+.th{
+  border-radius: 10px;
+  background-color: goldenrod;
+  color: black;
+}
+
+#tt {
+  color: black;
+  margin-bottom: auto;
+}
+
+h2{
+  padding: 50px;
+  color: aliceblue;
+}
+
+.searching{
+  width: 50%;
+}
+
+.btnn{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btnn:hover{
+  background: #666;
+  color: aliceblue;
+}

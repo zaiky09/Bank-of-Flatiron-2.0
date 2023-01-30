@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://api.npoint.io/996222c44ba840af45ae/transactions/'
